@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2okos - YouTube és Twitch csatorna</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="2okos-logo.png" alt="2okos logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Kezdőlap</a></li>
+          <li><a href="#videos">Videók</a></li>
+          <li><a href="#social">Közösségi média</a></li>
+          <li><a href="#contact">Kapcsolat</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <div class="intro">
+          <h1>Üdvözlünk a 2okos weboldalán!</h1>
+          <p>
+            A 2okos egy YouTube és Twitch csatorna, ahol két jóbarát, ICE és KDS
+            kalandjait követheted. Nézd meg a legújabb videóikat, kövesd őket a
+            közösségi médiában, és lépj velük kapcsolatba!
+          </p>
+        </div>
+        <div class="subscribe">
+          <h2>Iratkozz fel a csatornánkra!</h2>
+          <p>
+            Ha tetszenek a videóink, és szeretnél értesülni az újabb
+            tartalmainkról, iratkozz fel a YouTube és Twitch csatornánkra! Csak
+            egy kattintás, és máris a 2okos csapat tagja vagy!
+          </p>
+          <button id="youtube">Iratkozz fel a YouTube csatornánkra!</button>
+          <button id="twitch">Iratkozz fel a Twitch csatornánkra!</button>
+        </div>
+      </section>
+      <section id="videos">
+        <h2>Legújabb videóink</h2>
+        <div class="video-grid">
+          <!-- Ide kerülnek a legújabb videók beágyazott linkjei -->
+        </div>
+      </section>
+      <section id="social">
+        <h2>Kövess minket a közösségi médiában!</h2>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/2okos" target="_blank"
+            ><img src="facebook-icon.png" alt="Facebook"
+          /></a>
+          <a href="https://www.instagram.com/2okos" target="_blank"
+            ><img src="instagram-icon.png" alt="Instagram"
+          /></a>
+          <a href="https://www.twitter.com/2okos" target="_blank"
+            ><img src="twitter-icon.png" alt="Twitter"
+          /></a>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Lépj velünk kapcsolatba!</h2>
+        <p>
+          Ha van kérdésed, javaslatod, vagy csak üzenni szeretnél nekünk, töltsd
+          ki az alábbi űrlapot, és hamarosan válaszolunk!
+        </p>
+        <form id="contact-form">
+          <label for="name">Név:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Üzenet:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit" id="submit">Küldés</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>© 2024 2okos. Minden jog fenntartva.</p>
+    </footer>
+  </body>
+</html>
